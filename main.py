@@ -19,8 +19,8 @@ love_score =str(true_number) + str(love_number)
 
 #usloviya
 if int(love_score) < 10 or int(love_score) > 90: 
-  print("Your score is " + love_score +", you go together like coke and mentos.")
+  print(f"Your score is {love_score}, you go together like coke and mentos.")
 elif   int(love_score) >= 40 and int(love_score) <= 50:
-  print("Your score is " + love_score + ", you are alright together.")
+  print(f"Your score is {love_score}, you are alright together.")
 else:
-  print("Your score is " + love_score + ".")  
+  print(f"Your score is {love_score}.")  
